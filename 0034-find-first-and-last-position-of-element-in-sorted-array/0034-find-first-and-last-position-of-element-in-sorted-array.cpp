@@ -21,7 +21,7 @@ public:
 
         // Last occurrence
         start = 0;
-        end = nums.size() - 1;  // Corrected the end value
+        end = nums.size() - 1;  
 
         while (start <= end) {
             mid = start + (end - start) / 2;
